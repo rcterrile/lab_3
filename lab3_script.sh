@@ -15,4 +15,4 @@ egrep -c [@] "regex_practice.txt"
 
 egrep -o 303-[0-9]{3}-[0-9]{4} "regex_practice.txt"
 
-egrep [A-Za-z]*@geocities.com$ "regex_practice.txt" >> "email_results.txt"
+egrep [A-Za-z]*[0-9]*@geocities.com$ "regex_practice.txt" >> "email_results.txt"
